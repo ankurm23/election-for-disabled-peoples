@@ -1,0 +1,145 @@
+body{
+    background-color: white;
+}
+.vote p{
+    color: black;
+    max-width: 550px;
+    font-size:30px;
+    padding-left: 80px;
+    padding-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.vote p span i{
+    color: black; 
+    line-height: 70px;
+    font-weight: 900;
+    
+   
+}
+.emblem{
+    padding-left: 150px;
+    padding-top: 20px;
+
+}
+
+.btn{
+    height: 50px;
+    width: 180px;
+    cursor: pointer;
+    background-color:rgb(248, 194, 113);
+    border: none;
+    border-radius: 50px;
+    margin: 80px;
+    
+}
+
+
+
+/* .btn:hover{
+    background-color: green;
+    border-radius: 50%; */
+
+
+.btnn{
+    position:absolute;
+    top: 470px;
+    left:850px;
+
+}
+
+.form_content input,label{
+    width: 110px;
+    height: 30px;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 20px;
+
+   
+}
+.form_content label{
+    font-weight: 900;
+    font-size: larger;
+}
+.contactmail input{
+    width: 400px;
+}
+.dobpin input{
+    width: 165px;
+}
+.checkbox input{
+    width:50px;
+    height: 20px;
+    
+}
+.checkbox{
+   padding-left: 50px;
+   display: inline-block;
+
+}
+.btn1 button {
+    width: 310px;
+    height: 50px;
+
+}
+.btnn a{
+    text-decoration: none;
+    width: 90px;
+    padding: 1px;
+    padding-bottom: -10px;
+}
+.btn{
+    display:inline-block;
+    padding:0.46em 1.6em;
+    border:0.10em solid #fcf9f9;
+    margin:0 0.1em 0.2em 0;
+    border-radius:30px;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:600;
+    color:#000000;
+    text-shadow: 0 0.04em 0.04em rgba(238, 101, 10, 0.35);
+    background-color:rgb(248, 194, 113);
+    text-align:center;
+    transition: all 0.15s;
+    margin: 10px 20px;
+    font-size: large;
+    
+     
+}
+.btn:hover{
+    
+    color:#fcf9f8;
+   
+    background-color:rgb(255, 169, 10) ;
+    box-shadow: 3px 3px  rgba(245, 196, 150, 0.233);
+}
+
+
+a.button3{
+    display:inline-block;
+    padding:10px 50px;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    /* box-sizing: border-box; */
+    text-decoration:none;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:800;
+    color:#0c0c0c;
+    background-color:rgb(248, 194, 113);
+    text-align:center;
+    transition: all 0.2s;
+    width: 110px;
+    height: 25px;
+    font-size: large;
+}
+a.button3:hover{
+    color:#fcf9f8;
+   
+    background-color:rgb(255, 169, 10) ;
+    box-shadow: 3px 3px  rgba(245, 196, 150, 0.233);
+}
+.btn1 a.button3{
+    padding:10px 120px;
+}
