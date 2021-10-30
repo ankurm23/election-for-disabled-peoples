@@ -13,8 +13,8 @@
     <div class="form_content">
         <br>
         <label for="fname">Enter Elector's name</label><br>
-        <input type="text" id="zname"  placeholder="FirstName" required>
-        <input type="text" id="mm" placeholder="MiddleName" required>
+        <input type="text" id="zname"  placeholder="FirstName" >
+        <input type="text" id="mm" placeholder="MiddleName" >
         <input type="text" id="xname" placeholder="LastName" required>
         
         
@@ -41,7 +41,7 @@
         <br>
         <label for="voter id"> Voter ID:</label><br>
         
-       <input type="text" id="voter id" name="voter id" placeholder="Voter ID" required><br>
+       <input type="text" id="voter" name="voter id" placeholder="Voter ID" required><br>
 
        <label class="s" for="adhar no"> Adhar No.:</label><br>
        <input type="text" id="Adhar" name="Adhar" placeholder="Adhar No." required>
@@ -117,7 +117,7 @@
                     let pincode = document.getElementById("pincode");
                     pincode.value=variable;
                 },    
-                'Voter number *tag': function(variable){
+                'Voter id *tag': function(variable){
                     let Voter= document.getElementById("voter");
                     voter.value=variable;
                 },     
@@ -129,7 +129,7 @@
                     let Contact= document.getElementById("Contact");
                     Contact.value=variable;
                 },   
-                'Email  *tag': function(variable){
+                'Email id *tag': function(variable){
                     let email= document.getElementById("email");
                     email.value=variable;  
                 }, 
