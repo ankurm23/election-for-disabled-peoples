@@ -34,13 +34,13 @@
         if (annyang) {
           // Let's define our first command. First the text we expect, and then the function it should call
           var commands = {
-                '  Username *tag': function(variable){
+                'Username *tag': function(variable){
                 let user = document.getElementById("user");
                 user.value = variable;
 
             },
             
-                ' Password *tag': function(variable){
+                'Password *tag': function(variable){
                     let password = document.getElementById("password");
                     password.value = variable;
     
@@ -51,7 +51,7 @@
               
              
              
-            ' reenter *tag': function(variable){
+            'reenter *tag': function(variable){
                     let repassword= document.getElementById("repassword");
                     repassword.value=variable;  
             }, 
