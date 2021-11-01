@@ -26,5 +26,51 @@
     </div>
     </div>
     </form>
+
+
+
+
+    <script>
+        if (annyang) {
+          // Let's define our first command. First the text we expect, and then the function it should call
+          var commands = {
+                '  Username *tag': function(variable){
+                let user = document.getElementById("user");
+                user.value = variable;
+
+            },
+            
+                ' Password *tag': function(variable){
+                    let password = document.getElementById("password");
+                    password.value = variable;
+    
+            },
+                
+    
+          
+              
+             
+             
+            ' reenter *tag': function(variable){
+                    let repassword= document.getElementById("repassword");
+                    repassword.value=variable;  
+            }, 
+         
+            
+
+
+            
+            };
+          
+        
+          // Add our commands to annyang
+        annyang.addCommands(commands);
+        
+          // Start listening. You can call this here, or attach this call to an event, button, etc.
+          annyang.start();
+    }
+
+        </script>
+
 </body>
 </html>
