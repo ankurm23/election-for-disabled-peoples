@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.min.css">
+ 
+</head>
+<body>
+    <div class="heading">
+    <img src="em.png" alt="emblem" height="80px" width="80px"> 
+    <div class="headingtext">
+    <h2>ELECTION COMMISION OF INDIA</h2>
+    <H3>भारत चुनाव आयोग</H3>
+    <H3>Online Voting System</H3>
+    </div>
+
+    </div>
+    <div class="navigation">
+        <a href="" class="homes">Home</a>
+        <a href="" class="votes">Vote</a>
+        <a href="">Profile</a>
+        <a href="">Parties</a>
+        <a href="">FAQ</a>
+        <a href="">Log-out</a>
+    </div>
+    <br><br>
+
+    <center>
+   <!--image slider start-->
+   <div class="slider">
+    <div class="slides">
+      <!--radio buttons start-->
+      <input type="radio" name="radio-btn" id="radio1">
+      <input type="radio" name="radio-btn" id="radio2">
+      <input type="radio" name="radio-btn" id="radio3">
+      <input type="radio" name="radio-btn" id="radio4">
+      <!--radio buttons end-->
+      <!--slide images start-->
+      <div class="slide first">
+        <img src="voterhome1.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="voterhome2.jpg" alt="">
+      </div>
+      <div class="slide">
+        <img src="voterhome3.jpeg" alt="">
+      </div>
+      <div class="slide">
+        <img src="emblem.png" alt="">
+      </div>
+      <!--slide images end-->
+     
+    </div>
+   
+  </div>
+  <!--image slider end-->
+</center>
+  <script type="text/javascript">
+  var counter = 1;
+  setInterval(function(){
+    document.getElementById('radio' + counter).checked = true;
+    counter++;
+    if(counter > 4){
+      counter = 1;
+    }
+  }, 5000);
+  
+  </script> 
+  <br><br>
+  <center>
+  <div class="blank"></div></center>
+  <center>
+  <div class="dates">
+
+<div class="usericon"><i class="fas fa-user fa-3x "> <br><h4>user</h4></i></div>
+    <div class="teleicon"><i class="fab fa-telegram-plane fa-3x "></i></div>
+    <div class="usericon"><i class="fas fa-user fa-3x "></i></div>
+   <div class="tagicon"> <i class="fas fa-tags  fa-3x"></i></div>
+    <div class="syncicon"><i class="fas fa-sync  fa-3x "></i></div>
+    <div class="calendericon"><i class="fas fa-calendar-alt"></i></div>
+  </div>
+</center>
+</body>
+</html>
