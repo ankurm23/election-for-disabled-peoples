@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="">
+    <form action="signup.html" >
     <div class="form_content">
     <div class="contactmail">
         <br>
@@ -29,7 +29,7 @@
 
 
 
-
+    <script src="annyang.min.js"></script>
     <script>
         if (annyang) {
           // Let's define our first command. First the text we expect, and then the function it should call
@@ -54,7 +54,11 @@
             'reenter *tag': function(variable){
                     let repassword= document.getElementById("repassword");
                     repassword.value=variable;  
-            }, 
+            },
+            'sumbit form':function(){
+                    
+                location.replace('/signup.html')}
+
          
             
 
