@@ -310,7 +310,7 @@ a.button3:hover{
     ;}
 .dates i{
 
-padding: 60px 80px;
+padding: 15px 150px;
 }
 .blank{
     
@@ -319,11 +319,30 @@ padding: 60px 80px;
     background-color:  #ff9966;
     border-radius: 20px;
 }
-.usericon{
-   box-sizing: content-box;
-   height: 150px;
-width: 200px;
-   border: 2px solid black;
-   overflow: hidden;
-   
+.userinfo{
+  font-size: 20px;
+  line-height: 20px;
+}
+.dates {
+  display: flex;
+
+}
+.info i{
+  padding:15px 240px ;
+  
+}
+.info{
+  display:flex;
+  background-color:grey;
+
+  ;
+}
+
+.infoicon1, .infoicon2, .infoicon3{
+  color:black;
+}
+.infotext{
+  font-size: 25px;
+  font-weight: 600;
+  color:  #292929;
 }
